@@ -9,8 +9,8 @@ The result is a screening list. It is not a legal zoning opinion, and the
 script does not finish the client's requested manual check in the Boston
 Zoning Viewer. That distinction matters because the workbook keeps the
 client's requested column name, `Verified Subdistrict`, even though the value
-in that column comes from the BPDA zoning layer and a spatial join. I still
-need to check each final parcel in the viewer before describing it as manually
+in that column comes from the BPDA zoning layer and a spatial join. One still
+needs to check each final parcel in the viewer before describing it as manually
 verified.
 
 ## What the script uses
@@ -102,7 +102,7 @@ quality, title status, permitting, or legal compliance.
 
 ## Manual checks before delivery
 
-For each parcel in the final sheet, I need to:
+For each parcel in the final sheet, one needs to:
 
 1. Find the parcel in the Boston Zoning Viewer.
 2. Confirm the numeric S-zone shown by the viewer.
