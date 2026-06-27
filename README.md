@@ -143,7 +143,7 @@ join, and builds the client-facing rows. The smaller helper functions deal
 with one concern at a time: REST requests, geometry cleanup, use evidence,
 address formatting, methodology notes, or workbook formatting.
 
-The point of this README is to make the script auditable. I should be able to
+The point of this README is to make the script auditable. One should be able to
 explain why a parcel was included, where each workbook value came from, and
 which parts still depend on manual work without treating the code as a black
 box.
